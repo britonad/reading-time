@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reading Time 1.0.0\n"
 "Report-Msgid-Bugs-To: vladyslav.krylasov@gmail.com\n"
-"POT-Creation-Date: 2018-02-26 23:39+0200\n"
+"POT-Creation-Date: 2018-03-21 16:30+0200\n"
 "PO-Revision-Date: 2018-02-16 13:04+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uk\n"
@@ -25,22 +25,24 @@ msgid "Speed"
 msgstr "Швидкість"
 
 #: app/forms.py:11
-msgid "Reading speed. Usually this value about 200 words per minute."
+msgid "Reading speed. Usually this value is about 200 words per minute."
 msgstr "Швидкість читання. Зазвичай це значення близько 200 слів на хвилину."
 
 #: app/forms.py:19
-msgid "Paste URL address that should be estimated. Max length is 2083 characters."
+msgid ""
+"Paste the URL of the website that should be estimated. Max length is 2083"
+" characters."
 msgstr ""
-"Вставте URL адресу яка повинна бути оцінена. Максимальна довжина 2083 "
-"символи."
+"Вставте URL адресу яка повинна бути "
+"оцінена. Максимальна довжина 2083 символи."
 
 #: app/forms.py:26
 msgid "Plain text"
 msgstr "Звичайний текст"
 
 #: app/forms.py:27
-msgid "Plain text for reading estimation. Max length is 5000-000 characters."
-msgstr "Звичайний текст для оцінки читання. Максимальна довжина 5000-000 символів."
+msgid "Plain text for reading estimation. Max length is 500 000 characters."
+msgstr "Звичайний текст для оцінки читання. Максимальна довжина 5000 000 символів."
 
 #: app/views.py:40
 #, python-format
@@ -75,9 +77,8 @@ msgid ""
 "Reading time evaluation service of URL and/or inserted text by your own "
 "words per minute speed."
 msgstr ""
-"Сервіс оцінки часу читання URL адреси та/або вставленого тексту зі вказанням "
-"швидкості читання слів на хвилину."
-
+"Сервіс оцінки часу читання URL адреси та/або вставленого тексту зі "
+"вказанням швидкості читання слів на хвилину."
 
 #: templates/base.html:64
 msgid "Get in touch"
@@ -114,20 +115,19 @@ msgstr "Сервіс оцінки часу читання"
 
 #: templates/app/home.html:11
 msgid ""
-"Nowadays, we're all in hurry hence we need to count every second\n"
-"        of our time to enhance performance. This service will help you "
-"evaluate\n"
-"        approximate time of reading time. The service has got such "
-"options as\n"
-"        evaluation by a web-page link and evaluation of plain text "
-"insertion."
+"Nowadays, we're all in a hurry, so we need to count every second\n"
+"        of our time to enhance our performance. This service will help "
+"you evaluate\n"
+"        approximate reading time of a given text. It works on full "
+"websites as well\n"
+"        as plain text."
 msgstr ""
 "Сьогодні, ми всі поспішаємо, тому нам потрібно рахувати кожну секунду\n"
-"        нашого часу, щоб покращити продуктивність. Цей сервіс допоможе "
-"вам оцінити\n"
-"        приблизний час читання. Портал отримав такі опції як\n"
-"        оцінка веб-сторінки за посиланням, а також оцінка вставки "
-"звичайного тексту."
+"        нашого часу, щоб покращити "
+"продуктивність. Цей сервіс допоможе вам "
+"оцінити\n"
+"        приблизний час читання наданого тексту. Портал працює як з\n"
+"        веб-сайтами, так і з звичайним текстом."
 
 #: templates/app/home.html:17
 msgid "Evaluate"
@@ -138,8 +138,8 @@ msgid "Pass a test"
 msgstr "Пройти тест"
 
 #: templates/app/home.html:28
-msgid "The test will help you evaluate your words per minute speed."
-msgstr "Тест допоможе вам оцінити вашу швидкість читання слів за хвилину."
+msgid "The test will help you evaluate your reading speed."
+msgstr "Тест допоможе вам оцінити вашу швидкість читання."
 
 #: templates/app/home.html:30
 msgid "English version only"
@@ -147,17 +147,20 @@ msgstr "Тільки англійська версія"
 
 #: templates/app/home.html:32
 msgid ""
-"There is an option for other speakers as well. You can install\n"
+"There is an option for other languages as well. You can install\n"
 "          a browser extension called Spritzlet, open any link and try to "
 "play\n"
-"          with the speed of reading on any web-page. More details you'll\n"
-"          find here:"
+"          with the reading speed on any website. You can find more "
+"details\n"
+"          here:"
 msgstr ""
-"Є також варіант для інших носіїв мови також. Ви можете встановити\n"
-"          додаток для браузеру, який називається Spritzlet, відкрийте "
-"довільне посилання та спробуйте пограти\n"
-"          зі швидкістю читання на довільній веб-сторінці. Більше деталей "
-"ви\n"
+"Є також варіант для інших мов також. Ви можете встановити\n"
+"          додаток для браузеру, який "
+"називається Spritzlet, відкрийте довільне "
+"посилання та спробуйте пограти\n"
+"          зі швидкістю читання на "
+"довільній веб-сторінці. Більше деталей ви\n"
+""
 "          знайдете тут:"
 
 #: templates/app/home.html:37
@@ -165,27 +168,26 @@ msgid "Spritz extension"
 msgstr "Spritz додаток"
 
 #: templates/app/home.html:41
-msgid "How is it work?"
+msgid "How does it work?"
 msgstr "Як це працює?"
 
 #: templates/app/home.html:43
 msgid ""
-"The algorithm of work is next: we count all words from web-page\n"
-"          or from text box of inserted text, divided words by the speed "
-"of\n"
-"          reading (default 200 WPM) and retrieve approximate time. E.g.: "
-"2000\n"
+"The algorithm is the following: we count all the words from a \n"
+"          website or from the text you provide, divide the number by the "
+"reading\n"
+"          speed (default 200 WPM) and get approximate reading time. E.g.:"
+" 2000\n"
 "          words / 200 WPM = 10 minutes of reading."
 msgstr ""
 "Алгоритм роботи наступний: ми рахуємо всі слова на веб-сторінці\n"
-"          або з текст бокса вставленний"
-" текст, ділимо ці слова на швидкість"
+"          або з тексту, який ви надасте"
+" , ділимо ці слова на швидкість"
 " \n"
 "          читання (зазвичай 200 слів на"
 " хвилину) та отримуємо приблизний час "
 "читання. Наприклад: 2000\n"
 "          слів / 200 слів (швидкість читання) = 10 хвилин читання."
-
 
 #: templates/app/home.html:50
 msgid "Contributions"
@@ -193,12 +195,13 @@ msgstr "Внески"
 
 #: templates/app/home.html:52
 msgid ""
-"It is an open source project, so any contribution,\n"
+"It is an open source project, so any contributions or\n"
 "           ideas are welcome."
 msgstr ""
-"Це проект з відкритим вихідним кодом, так що любі внески,\n"
-"           ідеї вітаються."
+"Це проект з відкритим вихідним кодом, так що любі внески\n"
+"          або ідеї вітаються."
 
 #: templates/app/home.html:56
 msgid "Jump to Github repository"
 msgstr "Перейти до Github репозиторія"
+
