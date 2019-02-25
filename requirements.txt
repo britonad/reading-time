@@ -16,7 +16,7 @@ itsdangerous==0.24
 Jinja2==2.10
 lxml==4.2.1
 MarkupSafe==1.0
-pluggy==0.6.0
+pluggy==0.9.0
 py==1.5.3
 pytest==3.6.0
 pytz==2018.4
