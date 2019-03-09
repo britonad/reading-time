@@ -2,7 +2,7 @@ from flask_babel import lazy_gettext as _
 from flask_wtf import FlaskForm, RecaptchaField
 from wtforms.fields import IntegerField, TextAreaField
 from wtforms.fields.html5 import URLField
-from wtforms.validators import DataRequired, Length, URL
+from wtforms.validators import URL, DataRequired, Length, Optional
 
 
 class EstimationForm(FlaskForm):
@@ -20,7 +20,7 @@ class EstimationForm(FlaskForm):
             'Paste the URL of the website that should be estimated. Max length'
             ' is 2083 characters.'
         ),
-        validators=[Length(max=2083), URL()]
+        validators=[Length(max=2083), URL(), Optional()]
     )
     text = TextAreaField(
         label=_('Plain text'),
