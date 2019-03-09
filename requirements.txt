@@ -24,4 +24,4 @@ requests==2.21.0
 six==1.11.0
 urllib3==1.24.1
 Werkzeug==0.14.1
--e git://github.com/vald-phoenix/wtforms.git#egg=wtforms
+WTForms==2.2.1
